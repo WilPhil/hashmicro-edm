@@ -11,6 +11,10 @@
 
 /** @type {import('@maizzle/framework').Config} */
 export default {
+  baseURL: {
+    url: 'https://wilphil.github.io/hashmicro-edm/',
+    tags: ['img']
+  },
   build: {
     output: {
       path: 'docs',
