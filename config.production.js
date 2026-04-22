@@ -12,6 +12,7 @@
 /** @type {import('@maizzle/framework').Config} */
 export default {
   build: {
+    content: ['emails/**/promotional.html'],
     output: {
       path: 'build_production',
     },

@@ -12,7 +12,7 @@
 /** @type {import('@maizzle/framework').Config} */
 export default {
   build: {
-    content: ['emails/**/*.html'],
+    content: ['emails/**/promotional.html'],
     static: {
       source: ['images/**/*.*'],
       destination: 'images',
