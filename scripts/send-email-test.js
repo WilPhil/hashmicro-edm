@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 import { readFileSync } from 'fs';
 
-// 1. Setup Mailtrap Transport
+// Setup Mailtrap Transport
 const transport = nodemailer.createTransport({
   host: "sandbox.smtp.mailtrap.io",
   port: 2525,
@@ -11,7 +11,7 @@ const transport = nodemailer.createTransport({
   }
 });
 
-// 2. Read your compiled Maizzle HTML
+// Read compiled Maizzle HTML
 const html = readFileSync('./docs/index.html', 'utf8');
 
 const mailOptions = {
