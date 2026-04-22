@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@maizzle/framework": "latest",
+    "nodemailer": "^8.0.5",
     "tailwindcss-preset-email": "latest"
   }
 }
